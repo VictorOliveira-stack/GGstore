@@ -1,0 +1,199 @@
+body{
+    background: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@media (min-width: 768px) {
+    #containerprincipal{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    
+}
+
+#links{
+    margin-top: 0.5em;
+    margin-left: 2em;
+    display: flex;
+    gap: 1rem;
+   
+}
+@media (min-width: 768px) and (max-width: 2560px){
+  #links{
+    margin-top: 0.5em;
+    margin-left: 25%;
+    display: flex;
+    gap: 4rem;
+   
+}
+}
+
+#logo{
+    width: 2em;
+    height: 2em;
+    
+}
+
+#cabecalho{
+    display: flex;
+   
+}
+
+.href{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.imgtipo1{
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+}
+
+.casetexto1{
+    width: 55%;
+    margin-left: 28% ;
+   
+}
+
+.texto1{
+    font-size: 12pt;
+    color: white;
+    margin-top: 2em;
+    margin-bottom: 4em;
+}
+
+h1{
+  color: white;
+  font-size: 15pt;
+  margin-left: 10%;
+}
+
+h2{
+  font-size: 15pt;
+  color: white;
+}
+
+#Entemosasuavibe2{
+  margin-left: 4%;
+}
+
+
+/* Variáveis para fácil ajuste */
+
+  
+  .btn-streetwear {
+    /* Cores e Fundo */
+    background-image: radial-gradient(circle at center, #ff9b76, #ff4400);
+    color: #ffffff; /* Texto branco puro para contraste máximo */
+    border: none;
+    
+    /* Tipografia */
+   
+    font-size: 10px; /* Tamanho bom para destaque */
+    text-transform: uppercase; /* Deixa o texto todo em caixa alta (streetwear style) */
+    font-weight: 900; /* Super bold */
+    letter-spacing: 2px; /* Espaçamento entre letras para um visual mais intencional */
+    
+    /* Espaçamento e Formato */
+    padding: 15px 30px; /* Preenchimento interno generoso */
+    border-radius: 15px; /* Bordas levemente arredondadas */
+    cursor: pointer;
+    margin-left: 28%;
+    margin-bottom: 8em;
+    width: 14em;
+
+
+  }
+  
+  /* Efeito ao passar o mouse (Hover) e clicar (Active) */
+  .btn-streetwear:hover {
+    background-color: #e65c00; /* Ligeiramente mais claro no hover */
+  }
+  
+  .btn-streetwear:active {
+    /* Efeito de "apertar" o botão, simulando o clique */
+    box-shadow: 0 2px 0 var(--preto-street); /* Diminui a sombra */
+    transform: translateY(2px); /* Move o botão para baixo */
+  }
+
+  @media (min-width: 375px) and (max-width: 425px){
+    .btn-streetwear{
+      margin-left: 32%;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 2560px){
+    .btn-streetwear{
+      margin-left: 43%;
+    }
+  }
+
+
+  footer{
+    display: flex;
+    gap: 2em;
+    background-image: linear-gradient(to right, #352F00, #100E00, #352F00 ) ;
+    width: 100%;
+    height: auto;
+    margin-top: -0.5em;
+  }
+  @media (min-width: 768px )  and (max-width:1400px ){
+    footer{
+        
+        gap: 5em;
+        background-image: linear-gradient(to right, #352F00, #100E00, #352F00 ) ;
+        width: 100%;
+        height: auto;
+        margin-top: -0.5em;
+       
+        
+      }
+  }
+
+  #xx{
+    display: flex;
+    gap: 2em;
+
+  }
+
+  @media (min-width: 768px )  and (max-width:1400px ){
+    #xx{
+        display: flex;
+        gap: 4em;
+        margin-left: 30%;
+      }
+  }
+
+  .icons{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-left: 80%;
+    width: 2em;
+    height: 2em;
+  }
+
+  @media (min-width: 768px )  and (max-width:1400px ){
+    .icons{
+        margin-top: 1em;
+        margin-bottom: 1em;
+        width: 4em;
+        height: 4em;
+      }
+  }
+  @media (min-width: 1440px )  and (max-width:2560px ){
+    .icons{
+        margin-top: 1em;
+        margin-bottom: 1em;
+        width: 4em;
+        height: 4em;
+        
+      }
+      #xx{
+        display: flex;
+        gap: 4em;
+        margin-left: 28%;
+      }
+  }
